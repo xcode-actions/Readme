@@ -1,0 +1,14 @@
+- Release (prod)
+App_Name/release/1.2
+
+- Release Candidate (to be QA and/or TestFlight tested)
+App_Name/rc/1.2-16
+
+- Release previews (QA can be relaxed, probably; usually destined to Ad-Hoc installation)
+  The dev prefix indicate the build has been compiled w/o compiler optimizations and w/ asserts
+  These kind of release are usually Nightly builds
+App_Name/preview/16
+App_Name/preview/16-dev
+
+- Features
+App_Name/feature/16-branch_name

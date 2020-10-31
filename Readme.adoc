@@ -1,0 +1,6 @@
+= Xcode Actions
+François Lamboley <francois.lamboley@frostland.fr>
+
+The goal of this group of repositories is to provide actions and scripts that can be used in any project using Xcode, to setup CI and CD.
+
+More information are coming, this project is in progress.

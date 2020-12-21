@@ -12,3 +12,7 @@ App_Name/preview/16-dev
 
 - Features
 App_Name/feature/16-branch_name
+
+-------------------
+Branch names should contain underscores, not dashes
+Allows two things: First, double-click selection works on the whole branch; second, works better w/ naming above.

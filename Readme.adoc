@@ -1,6 +1,26 @@
 = Xcode Actions
 François Lamboley <francois.lamboley@frostland.fr>
 
-The goal of this group of repositories is to provide actions and scripts that can be used in any project using Xcode, to setup CI and CD.
+You will find here a library of projects to help you setup CI/CD of your Xcode
+projects.
 
-More information are coming, this project is in progress.
+
+== Philosophy
+
+All the tools provided in this repository are in Swift. This is a design choice:
+
+- We think Swift is awesome, and we can do anything with it! Including scripts
+and anything needed for a CI pipeline;
+- Developers using Xcode are probably used to Swift. Tinkering w/ the tools they
+use will be easier if they are written in a language they are used to.
+
+All tools are available using three forms:
+
+- As a simple executable;
+- As an Xcode Action;
+- As a function that can be called in a Swift package, or even a Swift script
+using https://github.com/mxcl/swift-sh[`swift-sh`] or similar.
+
+== Tools
+
+=== Building an `xcodeproj`
